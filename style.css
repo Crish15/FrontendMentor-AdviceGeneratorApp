@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   box-sizing: border-box;
 }
 
@@ -23,52 +23,56 @@ body {
 
 .container {
   position: relative;
-  width: 450px;
+  width: 28.125rem;
   height: auto;
   margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.04), 0 15px 15px rgba(0, 0, 0, 0.02), 0 1px 18px rgba(0, 0, 0, 0.08), 0 16px 20px rgba(0, 0, 0, 0.04);
-  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.04), 0 0.9375rem 0.9375rem rgba(0, 0, 0, 0.02), 0 0.0625rem 1.125rem rgba(0, 0, 0, 0.08), 0 1rem 1.25rem rgba(0, 0, 0, 0.04);
+  border-radius: 0.625rem;
   background-color: hsl(217deg, 19%, 24%);
   color: hsl(193deg, 38%, 86%);
   text-align: center;
 }
 
 .advice-id-container {
-  font-size: 10px;
+  font-size: 0.725rem;
   color: hsl(150deg, 100%, 66%);
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.1875rem;
 }
 
 .advice-text-container {
-  font-size: 21px;
+  font-size: 1.75rem;
   font-weight: 800;
-  margin-bottom: 30px;
-  margin-top: 23px;
+  margin-bottom: 1.875rem;
+  margin-top: 1.4375rem;
 }
 
 .divider {
   width: 100%;
-  height: 15px;
+  height: 0.9375rem;
   background-size: contain;
   background: url("images/pattern-divider-desktop.svg") no-repeat center;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 .button-request {
-  width: 54px;
-  height: 54px;
+  width: 3.375rem;
+  height: 3.375rem;
   position: absolute;
   background-color: hsl(150deg, 100%, 66%);
-  bottom: -27px;
-  left: calc(50% - 27px);
+  bottom: -1.6875rem;
+  left: calc(50% - 1.6875rem);
   border-radius: 100%;
   background-image: url("images/icon-dice.svg");
-  background-size: 18px 18px;
+  background-size: 1.125rem 1.125rem;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+
+.button-request:hover {
+  box-shadow: 0 0 1.5625rem hsl(150deg, 100%, 66%);
 }
 
 @media only screen and (max-width: 482px) {
